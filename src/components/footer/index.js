@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import TaskFilter from '../task-filter'
+import TaskFilter from '../task-filter';
 import './footer.css'
 
 function Footer({ toDo, filter, onFilter, clearTask }) {
